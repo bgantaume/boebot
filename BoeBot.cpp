@@ -23,6 +23,18 @@ void BoeBot::moveBackward()
   tribord.write(180); 
 }
 
+void BoeBot::turnSoftLeft() 
+{
+  babord.write(0);                   
+  tribord.write(90); 
+}
+
+void BoeBot::turnSoftRigth() 
+{
+  babord.write(90);                   
+  tribord.write(180); 
+}
+
 void BoeBot::turnLeft() 
 {
   babord.write(0);                   

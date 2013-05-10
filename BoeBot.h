@@ -13,6 +13,8 @@ public:
   void moveBackward();  
   void turnLeft();
   void turnRigth();
+  void turnSoftLeft();
+  void turnSoftRigth();
   void freeze();
 private:
   Servo babord;
